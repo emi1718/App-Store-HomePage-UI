@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppStore @emicodes</title>
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- js swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="col">
+            <i class="fa-solid fa-bars" id="menu_bar"></i>
+
+            <div class="logo">
+                <a href="#">
+                    <i class="fa-brands fa-android"></i>
+                    <span>
+                        EmiStore
+                    </span></a>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <form action="#">
+                <input type="text" placeholder="search App, Games, Movies & More">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+
+        <div class="col">
+            <button id="btn_mobile_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <a href="#">
+                <i class="fa-solid fa-download"></i>
+
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+        </div>
+    </header>
+
+
+    <!-- mobile search section  -->
+    <section class="mobile_search" id="mobile_search_form">
+        <form action="#">
+            <input type="text" placeholder="search App, Games, Movies & More">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </section>
+
+    <!-- main body  -->
+    <main>
+        <aside id="menu">
+            <div class="container">
+                <div class="col active">
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#">
+                        <i class="fa-brands fa-android"></i> Apps
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#">
+                        <i class="fa-solid fa-gamepad"></i> Games
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#">
+                        <i class="fa-solid fa-play"></i> Movies
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="container">
+                <div class="col">
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i> Setting
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+
+        <section class="main_content" id="main_content">
+            <div class="hero_Section">
+
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="Assets/images/banners/movie_blade_runner.jpg" alt="movie_blade_runner">
+
+                            <div class="content">
+                                <h2>Blade Runner 2049</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, distinctio nobis!
+                                </p>
+
+                                <div class="link">
+                                    <a href="#">Watch Now</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <img src="Assets/images/banners/game_cyberPunk.png" alt="game_cyberPunk">
+
+                            <div class="content">
+                                <h2>CyberPunk</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, distinctio nobis!
+                                </p>
+
+                                <div class="link">
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <img src="Assets/images/banners/App_spotify.jpeg" alt="App_spotify">
+
+                            <div class="content">
+                                <h2>Spotify</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, distinctio nobis!
+                                </p>
+
+                                <div class="link">
+                                    <a href="#">Install Now</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+            </div>
+
+
+
+            <!-- cards section apps -->
+
+            <div class="cards">
+                <div class="top_bar">
+                    <h3>Top Free Apps</h3>
+                    <a href="#">See all</a>
+                </div>
+
+                <div class="container">
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/discord.jpg" alt="discord">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>Discord</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/youtube.jpg" alt="youtube">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>Youtube</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/instagram.jpg" alt="instagram">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>instagram</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/netflix.jpg" alt="netflix">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>netflix</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/linkdin.jpg" alt="linkdin">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>linkdin</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/music player.jpg" alt="music">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>music</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/tiktok.jpg" alt="tiktok">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>Tiktok</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/Apps/whatsapp.jpg" alt="whatsapp">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>whatsapp</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- games section  -->
+            <div class="banner">
+                <img src="Assets/images/img/games/game banner.png" alt="games">
+
+                <div class="content">
+                    <h2>Unleash Your Gaming Potential</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas voluptates reprehenderit aperiam
+                        beatae veniam fuga.</p>
+
+
+                    <form action="#">
+                        <input type="text" placeholder="Find Best Games">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <!-- cards section apps -->
+
+            <div class="cards">
+                <div class="top_bar">
+                    <h3>Top Free Games</h3>
+                    <a href="#">See all</a>
+                </div>
+
+                <div class="container">
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/brwlhalla.jpg" alt="brwlhalla">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>brwlhalla</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/farcry5.jpg" alt="farcry5">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>FarCry5</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/fifa24.jpg" alt="instagram">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>Fifa 24</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/genshin.jpg" alt="netflix">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>Genshin Impact</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/gta5.jpg" alt="gta5">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>gta5</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/life is strange.jpg" alt="life is strange">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>life is Strange</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/mafia3.jpg" alt="pubg">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>Mafia 3</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="img">
+                            <img src="Assets/images/img/games/pubg.jpg" alt="pubg">
+
+                        </div>
+
+                        <div class="content">
+                            <h4>Pubg</h4>
+                            <h5>Entertaintment</h5>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+ <!-- movies section  -->
+
+ <div class="banner">
+    <img src="Assets/images/img/movies/banner.png" alt="games">
+
+    <div class="content">
+        <h2>Unleash Your Gaming Potential</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas voluptates reprehenderit aperiam
+            beatae veniam fuga.</p>
+
+
+        <form action="#">
+            <input type="text" placeholder="Find Best Games">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+
+
+<!-- cards section apps -->
+
+<div class="cards">
+    <div class="top_bar">
+        <h3>Top Free Movies</h3>
+        <a href="#">See all</a>
+    </div>
+
+    <div class="container">
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/blade runner.jpg" alt="blade runner 2049">
+
+            </div>
+
+            <div class="content">
+                <h4>Blade Runner 2049</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/gravity.jpg" alt="gravity">
+
+            </div>
+
+            <div class="content">
+                <h4>Gravity</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/i am  legend.jpg" alt="iiamlegend">
+
+            </div>
+
+            <div class="content">
+                <h4>I am Legend</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/interstteller.jpg" alt="Intersteller">
+
+            </div>
+
+            <div class="content">
+                <h4>Intersteller</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/johnwick.jpg" alt="johnwick">
+
+            </div>
+
+            <div class="content">
+                <h4>JohnWick</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/oblivion.jpg" alt="oblivion">
+
+            </div>
+
+            <div class="content">
+                <h4>Oblivion</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/stranger thing.jpg" alt="stranger things">
+
+            </div>
+
+            <div class="content">
+                <h4>Stranger Things</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="img">
+                <img src="Assets/images/img/movies/terminal list.jpg" alt="terminal">
+
+            </div>
+
+            <div class="content">
+                <h4>Terminal List</h4>
+                <h5>Entertaintment</h5>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                    <i class="fa-solid fa-star" style="color: orange;"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer>
+
+  <div class="col">
+    <p>All rights reserved 2024 emicodes.</p>
+
+    <div class="link">
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-square-whatsapp"></i>
+        </a>
+    </div>
+  </div>
+
+</footer>
+
+
+        </section>
+
+
+
+
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
